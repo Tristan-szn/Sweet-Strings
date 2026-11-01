@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweets & Strings - Gifts That Feel Like a Scene From a Story</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <a href="#" class="logo">Sweets & Strings</a>
+            <ul class="nav-links">
+                <li><a href="#collections">Shop</a></li>
+                <li><a href="#collections">Collections</a></li>
+                <li><a href="#how-it-works">Gifting</a></li>
+                <li><a href="#testimonials">About</a></li>
+            </ul>
+            <div class="nav-actions" id="navActions">
+                <a href="login.php" class="btn-login">Sign In</a>
+                <a href="#collections" class="btn-primary nav-btn">Build a Box</a>
+            </div>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <ul>
+                <li><a href="#collections">Shop</a></li>
+                <li><a href="#collections">Collections</a></li>
+                <li><a href="#how-it-works">Gifting</a></li>
+                <li><a href="#testimonials">About</a></li>
+            </ul>
+            <div class="mobile-actions" id="mobileActions">
+                <a href="login.php" class="btn-secondary btn-full">Sign In</a>
+            </div>
+            <a href="order.php" class="btn-primary">Build a Box</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <img src="images/hero/hero_bg_macarons.jpg" alt="Pastel macarons and cakes">
+            <div class="hero-overlay"></div>
+        </div>
+        <svg class="hero-ribbon" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <path d="M 10 85 Q 30 70 50 75 Q 70 80 90 60" fill="none" stroke="rgba(255, 77, 141, 0.35)" stroke-width="0.3" vector-effect="non-scaling-stroke"/>
+        </svg>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="headline">
+                    <span class="headline-line">A story in</span>
+                    <span class="headline-line">every box.</span>
+                </h1>
+                <p class="subheadline">Handcrafted chocolates, blooms, and cakes—curated like a scene from your favorite story.</p>
+                <div class="hero-ctas">
+                    <a href="#collections" class="btn-primary">Shop Bestsellers</a>
+                    <a href="#collections" class="btn-secondary">Build a Box</a>
+                </div>
+            </div>
+            <div class="hero-cards">
+                <div class="hero-card card-top">
+                    <img src="images/products/product_macaron_small.jpg" alt="Pastel macarons">
+                </div>
+                <div class="hero-card card-right">
+                    <img src="images/products/product_cake_slice.jpg" alt="Cake slice">
+                </div>
+                <div class="hero-card card-bottom">
+                    <img src="images/products/product_chocolate_box.jpg" alt="Chocolate box">
+                </div>
+            </div>
+        </div>
+        <div class="micro-label">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 3l1.912 5.813a2 2 0 001.272 1.272L21 12l-5.813 1.912a2 2 0 00-1.272 1.272L12 21l-1.912-5.813a2 2 0 00-1.272-1.272L3 12l5.813-1.912a2 2 0 001.272-1.272L12 3z"/>
+            </svg>
+            <span>NEW DROP</span>
+        </div>
+    </section>
+
+    <!-- Gift Scene Section -->
+    <section class="gift-scene" id="gift-scene">
+        <div class="ribbon-cross">
+            <svg viewBox="0 0 100 100" preserveAspectRatio="none">
+                <path d="M -10 50 L 110 50" stroke="rgba(255, 77, 141, 0.15)" stroke-width="8" vector-effect="non-scaling-stroke"/>
+                <path d="M 50 -10 L 50 110" stroke="rgba(255, 77, 141, 0.15)" stroke-width="8" vector-effect="non-scaling-stroke"/>
+            </svg>
+        </div>
+        <div class="gift-scene-content">
+            <div class="gift-card card-left">
+                <img src="images/products/product_donuts.jpg" alt="Colorful donuts">
+            </div>
+            <div class="gift-card card-main">
+                <img src="images/products/product_cake_slice.jpg" alt="Layered cake slice">
+            </div>
+            <div class="gift-card card-right">
+                <img src="images/products/product_cookies.jpg" alt="Decorated cookies">
+            </div>
+            <div class="gift-card card-top-small">
+                <img src="images/products/product_cake_round.jpg" alt="Round cake">
+            </div>
+            <div class="gift-text">
+                <h2>Unwrap the details.</h2>
+                <p>Ribbons, notes, and handpicked pieces—every layer is intentional.</p>
+                <a href="#collections" class="link-arrow">Explore Gifting</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating Gallery Section -->
+    <section class="floating-gallery" id="floating-gallery">
+        <div class="ribbon-loops">
+            <svg viewBox="0 0 100 100" preserveAspectRatio="none">
+                <path d="M 20 20 Q 50 40 80 20" fill="none" stroke="rgba(255, 77, 141, 0.2)" stroke-width="0.5" vector-effect="non-scaling-stroke"/>
+                <path d="M 20 80 Q 50 60 80 80" fill="none" stroke="rgba(255, 77, 141, 0.2)" stroke-width="0.5" vector-effect="non-scaling-stroke"/>
+            </svg>
+        </div>
+        <div class="floating-gallery-content">
+            <div class="gallery-header">
+                <h2>Floating favorites.</h2>
+                <p>Small batches, big impressions—chosen for color, flavor, and feeling.</p>
+            </div>
+            <div class="gallery-cards">
+                <div class="gallery-card card-left">
+                    <img src="images/products/product_heart_box.jpg" alt="Heart-shaped chocolate box">
+                </div>
+                <div class="gallery-card card-center">
+                    <img src="images/products/product_pink_box.jpg" alt="Pink gift box">
+                </div>
+                <div class="gallery-card card-right">
+                    <img src="images/products/product_cake_purple.jpg" alt="Purple themed cake">
+                </div>
+            </div>
+            <div class="gallery-cta">
+                <a href="#collections" class="btn-primary">Shop the Collection</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bold Statement Section -->
+    <section class="bold-statement" id="bold-statement">
+        <div class="bold-bg">
+            <svg viewBox="0 0 100 100" preserveAspectRatio="none">
+                <path d="M 0 20 Q 50 40 100 20" fill="none" stroke="rgba(0,0,0,0.1)" stroke-width="1" vector-effect="non-scaling-stroke"/>
+                <path d="M 0 50 Q 50 70 100 50" fill="none" stroke="rgba(0,0,0,0.1)" stroke-width="0.5" vector-effect="non-scaling-stroke"/>
+            </svg>
+        </div>
+        <div class="bold-content">
+            <h2>Made to be<br>remembered.</h2>
+            <p>From first glance to last bite—every piece is designed to leave an impression.</p>
+            <a href="#collections" class="btn-accent">Create Your Box</a>
+        </div>
+    </section>
+
+    <!-- Closing CTA Section -->
+    <section class="closing-cta" id="closing-cta">
+        <svg class="closing-ribbon" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <path d="M 60 20 Q 85 50 60 80" fill="none" stroke="rgba(255, 77, 141, 0.25)" stroke-width="1" vector-effect="non-scaling-stroke"/>
+        </svg>
+        <div class="closing-content">
+            <div class="closing-text">
+                <h2>Send a little story.</h2>
+                <p>Pick a box, add a note, and we'll handle the rest—delivered like a scene from a story.</p>
+                <div class="closing-buttons">
+                    <a href="#collections" class="btn-primary">Start Gifting</a>
+                    <a href="#" class="btn-secondary">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                            <line x1="16" y1="2" x2="16" y2="6"/>
+                            <line x1="8" y1="2" x2="8" y2="6"/>
+                            <line x1="3" y1="10" x2="21" y2="10"/>
+                        </svg>
+                        View Delivery Calendar
+                    </a>
+                </div>
+            </div>
+            <div class="closing-cards">
+                <div class="closing-card card-back">
+                    <img src="images/products/product_cake_ribbon_back.jpg" alt="Cake with ribbon">
+                </div>
+                <div class="closing-card card-middle">
+                    <img src="images/products/product_cake_ribbon_middle.jpg" alt="Layered cake">
+                </div>
+                <div class="closing-card card-front">
+                    <img src="images/products/product_cake_ribbon_front.jpg" alt="Decorated cake">
+                </div>
+            </div>
+        </div>
+        <p class="closing-caption">Handcrafted daily. Shipped with care.</p>
+    </section>
+
+    <!-- Collections Section -->
+    <section class="collections" id="collections">
+        <div class="collections-header">
+            <h2>Curated Collections</h2>
+            <p>Themes built around moments—birthdays, thank-yous, just-because.</p>
+        </div>
+        <div class="collections-grid">
+            <div class="collection-card">
+                <div class="collection-image">
+                    <img src="images/collections/collection_birthday.jpg" alt="Birthday collection">
+                </div>
+                <div class="collection-content">
+                    <div>
+                        <h3>Birthday Blooms & Bites</h3>
+                        <p>Celebrate with flowers and sweet treats</p>
+                    </div>
+                    <svg class="arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="5" y1="12" x2="19" y2="12"/>
+                        <polyline points="12 5 19 12 12 19"/>
+                    </svg>
+                </div>
+                <span class="product-count">12 products</span>
+            </div>
+            <div class="collection-card">
+                <div class="collection-image">
+                    <img src="images/collections/collection_thankyou.jpg" alt="Thank you collection">
+                </div>
+                <div class="collection-content">
+                    <div>
+                        <h3>Thank-You Tokens</h3>
+                        <p>Show appreciation with curated gifts</p>
+                    </div>
+                    <svg class="arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="5" y1="12" x2="19" y2="12"/>
+                        <polyline points="12 5 19 12 12 19"/>
+                    </svg>
+                </div>
+                <span class="product-count">8 products</span>
+            </div>
+            <div class="collection-card">
+                <div class="collection-image">
+                    <img src="images/collections/collection_surprise.jpg" alt="Surprise collection">
+                </div>
+                <div class="collection-content">
+                    <div>
+                        <h3>Just-Because Surprises</h3>
+                        <p>Spontaneous gifts for any moment</p>
+                    </div>
+                    <svg class="arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="5" y1="12" x2="19" y2="12"/>
+                        <polyline points="12 5 19 12 12 19"/>
+                    </svg>
+                </div>
+                <span class="product-count">15 products</span>
+            </div>
+            <div class="collection-card">
+                <div class="collection-image">
+                    <img src="images/collections/collection_mini.jpg" alt="Mini treats">
+                </div>
+                <div class="collection-content">
+                    <div>
+                        <h3>Mini Treat Sets</h3>
+                        <p>Small delights, big impressions</p>
+                    </div>
+                    <svg class="arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="5" y1="12" x2="19" y2="12"/>
+                        <polyline points="12 5 19 12 12 19"/>
+                    </svg>
+                </div>
+                <span class="product-count">10 products</span>
+            </div>
+            <div class="collection-card">
+                <div class="collection-image">
+                    <img src="images/collections/collection_floral.jpg" alt="Floral add-ons">
+                </div>
+                <div class="collection-content">
+                    <div>
+                        <h3>Floral Add-Ons</h3>
+                        <p>Fresh blooms to complement</p>
+                    </div>
+                    <svg class="arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="5" y1="12" x2="19" y2="12"/>
+                        <polyline points="12 5 19 12 12 19"/>
+                    </svg>
+                </div>
+                <span class="product-count">6 products</span>
+            </div>
+            <div class="collection-card">
+                <div class="collection-image">
+                    <img src="images/collections/collection_corporate.jpg" alt="Corporate gifting">
+                </div>
+                <div class="collection-content">
+                    <div>
+                        <h3>Corporate Gifting</h3>
+                        <p>Professional presents with polish</p>
+                    </div>
+                    <svg class="arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="5" y1="12" x2="19" y2="12"/>
+                        <polyline points="12 5 19 12 12 19"/>
+                    </svg>
+                </div>
+                <span class="product-count">9 products</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="vertical-line"></div>
+        <div class="how-it-works-content">
+            <div class="how-header">
+                <h2>How it works</h2>
+                <p>Three simple steps to send joy</p>
+            </div>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-content left">
+                        <div class="step-card">
+                            <div class="step-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                                    <path d="M2 17l10 5 10-5"/>
+                                    <path d="M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                            <span class="step-number">01</span>
+                            <h3>Pick a collection</h3>
+                            <p>Choose a theme or build your own.</p>
+                        </div>
+                    </div>
+                    <div class="step-node"></div>
+                    <div class="step-content right"></div>
+                </div>
+                <div class="step">
+                    <div class="step-content left"></div>
+                    <div class="step-node"></div>
+                    <div class="step-content right">
+                        <div class="step-card">
+                            <div class="step-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 19l7-7 3 3-7 7-3-3z"/>
+                                    <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/>
+                                    <path d="M2 2l7.586 7.586"/>
+                                    <circle cx="11" cy="11" r="2"/>
+                                </svg>
+                            </div>
+                            <span class="step-number">02</span>
+                            <h3>Add a note</h3>
+                            <p>We'll hand-write it on a story-style card.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-content left">
+                        <div class="step-card">
+                            <div class="step-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="1" y="3" width="15" height="13"/>
+                                    <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/>
+                                    <circle cx="5.5" cy="18.5" r="2.5"/>
+                                    <circle cx="18.5" cy="18.5" r="2.5"/>
+                                </svg>
+                            </div>
+                            <span class="step-number">03</span>
+                            <h3>We deliver the scene</h3>
+                            <p>Carefully packed, ready to impress.</p>
+                        </div>
+                    </div>
+                    <div class="step-node"></div>
+                    <div class="step-content right"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="testimonials-content">
+            <div class="testimonials-header">
+                <h2>Kind words</h2>
+                <p>What our customers are saying</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonials-column">
+                    <div class="testimonial-card">
+                        <svg class="quote-icon" width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+                        </svg>
+                        <p class="quote">"It felt like opening a page from a storybook."</p>
+                        <div class="author">
+                            <span class="name">Sarah M.</span>
+                            <span class="divider">•</span>
+                            <span class="location">New York</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <svg class="quote-icon" width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+                        </svg>
+                        <p class="quote">"The details are insane—in the best way."</p>
+                        <div class="author">
+                            <span class="name">James L.</span>
+                            <span class="divider">•</span>
+                            <span class="location">Los Angeles</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <svg class="quote-icon" width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+                        </svg>
+                        <p class="quote">"My go-to for every celebration now."</p>
+                        <div class="author">
+                            <span class="name">Emily R.</span>
+                            <span class="divider">•</span>
+                            <span class="location">Chicago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-column">
+                    <div class="faq-card">
+                        <h3>Frequently Asked Questions</h3>
+                        <div class="faq-list">
+                            <details class="faq-item">
+                                <summary>How far ahead should I order?</summary>
+                                <p>We recommend ordering at least 3-5 days in advance for standard delivery. For custom orders or peak seasons (Valentine's Day, Mother's Day), please order 1-2 weeks ahead.</p>
+                            </details>
+                            <details class="faq-item">
+                                <summary>Can I include a custom message?</summary>
+                                <p>Absolutely! Every order includes a complimentary handwritten note. You can add your message during checkout, and our team will beautifully hand-write it on a story-style card.</p>
+                            </details>
+                            <details class="faq-item">
+                                <summary>Do you ship nationwide?</summary>
+                                <p>Yes, we ship to all 50 states. Delivery times vary by location, typically 1-3 business days for major cities and 3-5 days for remote areas.</p>
+                            </details>
+                            <details class="faq-item">
+                                <summary>What's inside a build-a-box?</summary>
+                                <p>Build-a-Box lets you curate your own gift box from our selection of handcrafted chocolates, mini cakes, cookies, and floral add-ons. Choose 3-7 items to create your perfect gift.</p>
+                            </details>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-ribbon">
+            <svg viewBox="0 0 100 100" preserveAspectRatio="none">
+                <path d="M 0 20 Q 50 40 100 20" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1" vector-effect="non-scaling-stroke"/>
+                <path d="M 0 50 Q 50 70 100 50" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1" vector-effect="non-scaling-stroke"/>
+                <path d="M 0 80 Q 50 100 100 80" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1" vector-effect="non-scaling-stroke"/>
+            </svg>
+        </div>
+        <div class="footer-content">
+            <div class="footer-top">
+                <div class="newsletter">
+                    <h3>Get the next chapter.</h3>
+                    <p>Early access to drops, seasonal edits, and gifting tips.</p>
+                    <form class="newsletter-form" id="newsletterForm">
+                        <input type="email" placeholder="Email address" required>
+                        <button type="submit" aria-label="Subscribe">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="22" y1="2" x2="11" y2="13"/>
+                                <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4>Shop</h4>
+                        <ul>
+                            <li><a href="#">Bestsellers</a></li>
+                            <li><a href="#">New Arrivals</a></li>
+                            <li><a href="#collections">Collections</a></li>
+                            <li><a href="#">Gift Cards</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-group">
+                        <h4>Gifting</h4>
+                        <ul>
+                            <li><a href="#">Build a Box</a></li>
+                            <li><a href="#">Corporate Gifts</a></li>
+                            <li><a href="#">Wedding Favors</a></li>
+                            <li><a href="#">Subscription</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-group">
+                        <h4>Support</h4>
+                        <ul>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#testimonials">FAQs</a></li>
+                            <li><a href="#">Shipping Info</a></li>
+                            <li><a href="#">Returns</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span class="footer-logo">Sweets & Strings</span>
+                <div class="social-links">
+                    <a href="#" aria-label="Instagram">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Facebook">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Twitter">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
+                        </svg>
+                    </a>
+                </div>
+                <p class="copyright">Made with <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg> by Sweets & Strings</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">
+        <span class="toast-message"></span>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        // Check auth status and update navigation
+        (function() {
+            const session = JSON.parse(localStorage.getItem('sweets_session') || sessionStorage.getItem('sweets_session') || '{}');
+            const navActions = document.getElementById('navActions');
+            const mobileActions = document.getElementById('mobileActions');
+            
+            if (session.isLoggedIn) {
+                // User is logged in
+                if (navActions) {
+                    navActions.innerHTML = `
+                        <a href="dashboard.php" class="user-avatar-nav" title="${session.name}">
+                            ${session.photo ? `<img src="${session.photo}" alt="${session.name}">` : `
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/>
+                                <circle cx="12" cy="7" r="4"/>
+                            </svg>`}
+                        </a>
+                        <a href="order.php" class="btn-primary nav-btn">Order Now</a>
+                    `;
+                }
+                if (mobileActions) {
+                    mobileActions.innerHTML = `
+                        <a href="dashboard.php" class="btn-secondary btn-full">My Account</a>
+                    `;
+                }
+            }
+        })();
+    </script>
+</body>
+</html>
